@@ -1,0 +1,19 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/PlayAreaStyles.uss?fileID=7433441132597879392&amp;guid=dd7e060151e7705be8b7acdb3948a08e&amp;type=3#PlayAreaStyles" />
+    <ui:VisualElement name="root" style="flex-grow: 1; align-items: stretch; justify-content: flex-end;">
+        <ui:VisualElement name="combo-container" style="flex-grow: 0; flex-direction: row; align-self: stretch; justify-content: flex-start; font-size: 50%; align-items: flex-end; padding-right: 50px; padding-left: 50px;">
+            <ui:Label tabindex="-1" text="Combo:" parse-escape-sequences="true" display-tooltip-when-elided="true" name="combo-label" style="align-self: auto; font-size: 35%; -unity-font-style: bold;" />
+            <ui:Label tabindex="-1" text="0" parse-escape-sequences="true" display-tooltip-when-elided="true" name="combo-value" style="font-size: 50%;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="fields-container" style="flex-grow: 0; flex-direction: row; justify-content: space-between;">
+            <ui:VisualElement name="score-field" class="field" style="flex-grow: 1; border-top-right-radius: 40px;">
+                <ui:Label tabindex="-1" text="Score:" parse-escape-sequences="true" display-tooltip-when-elided="true" name="score-label" class="label" />
+                <ui:Label tabindex="-1" text="0" parse-escape-sequences="true" display-tooltip-when-elided="true" name="score-value" class="value" />
+            </ui:VisualElement>
+            <ui:VisualElement name="lives-field" class="field" style="flex-grow: 1; border-top-left-radius: 40px;">
+                <ui:Label tabindex="-1" text="Lives:" parse-escape-sequences="true" display-tooltip-when-elided="true" name="lives-label" class="label" />
+                <ui:Label tabindex="-1" text="5" parse-escape-sequences="true" display-tooltip-when-elided="true" name="lives-value" class="value" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

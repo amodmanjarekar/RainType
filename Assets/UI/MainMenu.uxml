@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/MainMenuStyles.uss?fileID=7433441132597879392&amp;guid=dc98922a75df86d5f99d016d065e7ae8&amp;type=3#MaunMenuStyles" />
+    <ui:VisualElement name="root" style="flex-grow: 1; align-items: center; justify-content: center; background-color: rgb(178, 172, 255);">
+        <ui:VisualElement name="menu-container" style="flex-grow: 0; width: 70%; height: 70%; background-color: rgb(9, 6, 55); justify-content: space-around;">
+            <ui:Label tabindex="-1" text="RainType" parse-escape-sequences="true" display-tooltip-when-elided="true" name="game-name" style="-unity-font-definition: initial; -unity-font: url(&apos;project://database/Assets/Fonts/Ubuntu-Regular.ttf?fileID=12800000&amp;guid=2b16cffa1c053c37590f9a3b8f7d3e67&amp;type=3#Ubuntu-Regular&apos;); font-size: 200%; white-space: normal; -unity-text-align: upper-center; color: rgb(255, 255, 255); -unity-font-style: normal;" />
+            <ui:VisualElement name="buttons-container" style="flex-grow: initial; min-width: 40%; min-height: auto; width: 50%; align-self: center; font-size: 70%;">
+                <ui:Button text="Start" parse-escape-sequences="true" display-tooltip-when-elided="true" name="button-start" style="-unity-font-definition: initial; -unity-font: url(&apos;project://database/Assets/Fonts/Ubuntu-Regular.ttf?fileID=12800000&amp;guid=2b16cffa1c053c37590f9a3b8f7d3e67&amp;type=3#Ubuntu-Regular&apos;); background-color: rgb(188, 188, 188);" />
+                <ui:Button text="Exit" parse-escape-sequences="true" display-tooltip-when-elided="true" name="button-exit" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

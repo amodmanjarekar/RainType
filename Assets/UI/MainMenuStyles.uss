@@ -1,0 +1,12 @@
+Button {
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    -unity-font-definition: initial;
+    -unity-font: url('project://database/Assets/Fonts/Ubuntu-Regular.ttf?fileID=12800000&guid=2b16cffa1c053c37590f9a3b8f7d3e67&type=3#Ubuntu-Regular');
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
